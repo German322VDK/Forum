@@ -20,6 +20,10 @@ namespace Forum.Server
         private readonly WebApplicationBuilder _builder;
         private readonly IConfiguration _configuration;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Startup"/> class.
+        /// </summary>
+        /// <param name="args">The command-line arguments.</param>
         public Startup(string[] args)
         {
             _builder = WebApplication.CreateBuilder(args);

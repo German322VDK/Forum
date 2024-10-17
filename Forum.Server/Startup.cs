@@ -1,6 +1,11 @@
-﻿using Forum.Server.WebInfrastructure.Middlewares;
+﻿using Forum.Database.Context;
+using Forum.Domain.Entities.Identity;
+using Forum.Infrastructure.Initializers;
+using Forum.Server.WebInfrastructure.Middlewares;
 using Forum.Server.WebInfrastructure.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Events;
@@ -15,6 +20,10 @@ namespace Forum.Server
         private readonly WebApplicationBuilder _builder;
         private readonly IConfiguration _configuration;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Startup"/> class.
+        /// </summary>
+        /// <param name="args">The command-line arguments.</param>
         public Startup(string[] args)
         {
             _builder = WebApplication.CreateBuilder(args);
@@ -42,6 +51,17 @@ namespace Forum.Server
         /// <param name="services">The service collection to configure.</param>
         private void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ForumDbContext>(opt => opt
+              .UseSqlite(_configuration.GetConnectionString("Sqlite"))
+              .UseLazyLoadingProxies()
+           );
+
+            services.AddIdentity<UserEntity, RoleEntity>()
+                .AddEntityFrameworkStores<ForumDbContext>()
+                .AddDefaultTokenProviders();
+
+            services.AddTransient<IDbInitializer, ForumDbInitializer>();
+
             services.AddCors(opt =>
             {
                 opt.AddPolicy("CorsPolicy", builder =>
@@ -57,17 +77,35 @@ namespace Forum.Server
                 });
             });
 
-            services.AddAuthentication(options =>
+            services.Configure<IdentityOptions>(options =>
             {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-           .AddJwtBearer(options =>
-           {
-               options.TokenValidationParameters =
-               CustomTokenOptions
-               .GetTokenValidationParameters(_configuration["Jwt:Issuer"], _configuration["Jwt:Audience"], _configuration["Jwt:Key"]);
-           });
+                IConfigurationSection identitySettings = _configuration.GetSection("Identity");
+
+                options.Password.RequiredLength = identitySettings.GetValue<int>("Password:RequiredLength");
+                options.Password.RequireDigit = identitySettings.GetValue<bool>("Password:RequireDigit");
+                options.Password.RequireLowercase = identitySettings.GetValue<bool>("Password:RequireLowercase");
+                options.Password.RequireUppercase = identitySettings.GetValue<bool>("Password:RequireUppercase");
+                options.Password.RequireNonAlphanumeric = identitySettings.GetValue<bool>("Password:RequireNonAlphanumeric");
+                options.Password.RequiredUniqueChars = identitySettings.GetValue<int>("Password:RequiredUniqueChars");
+
+                // Настройки блокировки
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.Parse(identitySettings.GetValue<string>("Lockout:DefaultLockoutTimeSpan"));
+                options.Lockout.MaxFailedAccessAttempts = identitySettings.GetValue<int>("Lockout:MaxFailedAccessAttempts");
+                options.Lockout.AllowedForNewUsers = identitySettings.GetValue<bool>("Lockout:AllowedForNewUsers");
+            });
+
+            services
+                .AddAuthentication(options =>
+                {
+                    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                })
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters =
+                    CustomTokenOptions
+                    .GetTokenValidationParameters(_configuration["Jwt:Issuer"], _configuration["Jwt:Audience"], _configuration["Jwt:Key"]);
+                });
 
             services.AddAuthorization();
 
@@ -108,6 +146,8 @@ namespace Forum.Server
         /// <param name="env">The web hosting environment.</param>
         private async void Configure(WebApplication app, IWebHostEnvironment env)
         {
+            await DbInit(app);
+
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -129,6 +169,17 @@ namespace Forum.Server
             app.MapControllers();
 
             app.UseSerilogRequestLogging();
+        }
+
+        private async Task DbInit(WebApplication app)
+        {
+            using (IServiceScope scope = app.Services.CreateScope())
+            {
+                IServiceProvider services = scope.ServiceProvider;
+
+                IDbInitializer dbInitializer = services.GetRequiredService<IDbInitializer>();
+                await dbInitializer.InitializeAsync();
+            }
         }
 
         /// <summary>

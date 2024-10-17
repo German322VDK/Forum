@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Forum.Domain.Entities.Identity;
+using Microsoft.AspNetCore.Identity;
 
 namespace Forum.Server.WebInfrastructure.Middlewares
 {
@@ -35,7 +36,29 @@ namespace Forum.Server.WebInfrastructure.Middlewares
         /// <returns>A task representing the asynchronous operation.</returns>
         public async Task InvokeAsync(HttpContext context)
         {
-            
+            if (context.User.Identity.IsAuthenticated)
+            {
+                using (IServiceScope scope = _scopeFactory.CreateScope())
+                {
+                    UserManager<UserEntity> userManager = scope.ServiceProvider.GetRequiredService<UserManager<UserEntity>>();
+
+                    UserEntity? user = await userManager.GetUserAsync(context.User);
+
+                    if (user != null)
+                    {
+                        bool isBanned = await userManager.IsInRoleAsync(user, UserStatus.Banned.ToString());
+
+                        if (isBanned)
+                        {
+                            _logger.LogInformation($"Пользователь {user.UserName} забанен");
+
+                            context.Response.StatusCode = StatusCodes.Status403Forbidden; // Устанавливаем код состояния 403
+                            await context.Response.WriteAsync("Доступ запрещен. Вы забанены."); // Добавляем сообщение об ошибке
+                            return;
+                        }
+                    }
+                }
+            }
 
             await _next(context);
         }

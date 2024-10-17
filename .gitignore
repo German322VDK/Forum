@@ -361,3 +361,17 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Forum.Server/Forum.db
+/Forum.Server/Forum.db-shm
+/Forum.Server/Forum.db-wal
+
+# Игнорировать все файлы в папке uploads
+/Forum.Server/wwwroot/uploads/*
+
+# Исключить конкретные файлы
+/Forum.Server/!wwwroot/uploads/trads/trad-1.jpg
+/Forum.Server/!wwwroot/uploads/trads/trad-1-post-1
+/Forum.Server/!wwwroot/uploads/trads/trad-1-post-1-com-1.jpg
+/Forum.Server/!wwwroot/uploads/users/main.jpg
+/Forum.Server/!wwwroot/uploads/users/default.jpg
+

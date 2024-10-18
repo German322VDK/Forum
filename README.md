@@ -8,6 +8,8 @@ Forum — это проект, который включает в себя API �
 ## Структура проекта
 ```
 Forum
+├── docfx_project
+├── docs
 ├── Forum.Database
 │   ├── Context
 │   └── Migrations
@@ -31,10 +33,25 @@ Forum
 ├── Forum.Server
 │   ├── Controllers
 │   └── WebInfrastructure
-│       ├── FileManagement
-│       ├── Middlewares
-│       └── Security
-└── wwwroot
+│   │   ├── FileManagement
+│   │   ├── Middlewares
+│   │   └── Security
+│   └── wwwroot
+├── forum-client-app
+│   ├── public
+│   └──src
+│       │── assets
+│       │   └──css
+│       │── components
+│       │   └──Header
+│       └──pages
+│           │── Home
+│           │── Login
+│           │── Profile
+│           │    └──components
+│           └──Trad
+│                └──components
+├── Nginx
 ```
 
 
@@ -76,7 +93,7 @@ Forum
 ```javascript
 //const baseUrl = `http://localhost:5171/`;
 const baseUrl = `http://localhost:8080/`;
-
+```
 
 ## Тестирование
 Проект включает в себя модульные тесты для CommentStore, PostStore и TradStore. Чтобы запустить тесты, используйте GitHub Actions или выполните тесты локально с помощью следующей команды:

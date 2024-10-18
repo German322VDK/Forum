@@ -53,7 +53,7 @@ Forum
  ```bash
   dotnet test
  ```
-<!-- [![Testing](https://github.com/German322VDK/Forum/actions/workflows/Testing.yml/badge.svg)](https://github.com/German322VDK/Forum/actions/workflows/Testing.yml)-->
+[![Testing](https://github.com/German322VDK/Forum/actions/workflows/testing.yml/badge.svg)](https://github.com/German322VDK/Forum/actions/workflows/testing.yml)
 
 ## Документация
-<!-- Чтобы ознакомится с документацией перейдите по [ссылке](https://german322vdk.github.io/Forum/api/index.html)-->
+Чтобы ознакомится с документацией перейдите по [ссылке](https://german322vdk.github.io/Forum/api/index.html)

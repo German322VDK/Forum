@@ -35,9 +35,6 @@ Forum
 │       ├── Middlewares
 │       └── Security
 └── wwwroot
-
-
-
 ```
 
 

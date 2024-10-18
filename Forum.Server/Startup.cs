@@ -1,6 +1,9 @@
 ﻿using Forum.Database.Context;
+using Forum.Domain.Entities.ForumEntities;
 using Forum.Domain.Entities.Identity;
 using Forum.Infrastructure.Initializers;
+using Forum.Infrastructure.Services.Stores.Contents;
+using Forum.Server.WebInfrastructure.FileManagement.Images;
 using Forum.Server.WebInfrastructure.Middlewares;
 using Forum.Server.WebInfrastructure.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -61,6 +64,13 @@ namespace Forum.Server
                 .AddDefaultTokenProviders();
 
             services.AddTransient<IDbInitializer, ForumDbInitializer>();
+            services.AddTransient<IImageManager, ImageManager>();
+
+            services.AddTransient<ITokenService, TokenService>();
+
+            services.AddTransient<IStore<TradEntity>, TradStore>();
+            services.AddTransient<IStore<PostEntity>, PostStore>();
+            services.AddTransient<IStore<CommentEntity>, CommentStore>();
 
             services.AddCors(opt =>
             {

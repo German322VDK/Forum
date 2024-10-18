@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum.Server", "Forum.Server\Forum.Server.csproj", "{9EC15E35-6BCD-476A-BD81-84EA461EB372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forum.Server", "Forum.Server\Forum.Server.csproj", "{9EC15E35-6BCD-476A-BD81-84EA461EB372}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1531EE7F-E92A-4CBD-9C95-9679640EEFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum.Domain", "Forum.Domain\Forum.Domain.csproj", "{B40E5CE2-E561-428B-BEA6-185D3E9F961B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forum.Domain", "Forum.Domain\Forum.Domain.csproj", "{B40E5CE2-E561-428B-BEA6-185D3E9F961B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum.Database", "Forum.Database\Forum.Database.csproj", "{4C3CA7A4-CCF9-480E-932D-FF13AF07582F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forum.Database", "Forum.Database\Forum.Database.csproj", "{4C3CA7A4-CCF9-480E-932D-FF13AF07582F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum.Infrastructure", "Forum.Infrastructure\Forum.Infrastructure.csproj", "{962B7C43-E4C5-4EA1-BA01-22AD75B1296A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forum.Infrastructure", "Forum.Infrastructure\Forum.Infrastructure.csproj", "{962B7C43-E4C5-4EA1-BA01-22AD75B1296A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum.Infrastructure.Tests", "Forum.Infrastructure.Tests\Forum.Infrastructure.Tests.csproj", "{AF2BDF36-C34E-464D-B1FA-1A60855A058F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forum.Infrastructure.Tests", "Forum.Infrastructure.Tests\Forum.Infrastructure.Tests.csproj", "{AF2BDF36-C34E-464D-B1FA-1A60855A058F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1D989B3D-4606-40EC-B1A2-AF02747708BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{AF2BDF36-C34E-464D-B1FA-1A60855A058F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF2BDF36-C34E-464D-B1FA-1A60855A058F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF2BDF36-C34E-464D-B1FA-1A60855A058F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D989B3D-4606-40EC-B1A2-AF02747708BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D989B3D-4606-40EC-B1A2-AF02747708BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D989B3D-4606-40EC-B1A2-AF02747708BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D989B3D-4606-40EC-B1A2-AF02747708BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

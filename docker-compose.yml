@@ -1,0 +1,18 @@
+services:
+  backend:
+    image: germean/forumserver:latest
+    build:
+      context: ./Forum.Server
+      dockerfile: Dockerfile
+
+  client:
+    image: germean/client:latest
+    build: 
+      context: ./forum-client-app
+      dockerfile: Dockerfile
+
+  proxy:
+    image: germean/nginx:latest
+    build: 
+      context: ./Nginx
+      dockerfile: Dockerfile

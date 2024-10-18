@@ -1,0 +1,69 @@
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #e2e6ea;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+/* 
+.navbar-nav li {
+    margin-left: 1rem;
+} */
+
+.navbar-nav li.ml-3 {
+    margin-left: 1rem;
+}
+
+.navbar-nav div {
+    margin-left: 1rem;
+}
+
+/* Иконки в шапке */
+nav .fa {
+    margin-right: 0.5rem;
+}
+
+.img-header {
+    width: 40px; /* Ширина изображения */
+    height: 40px; /* Высота изображения */
+    border-radius: 50%; /* Скругленные края для круглого фото */
+    object-fit: cover; /* Сохранение пропорций, без искажений */
+    border: 2px solid #fff; /* Белая рамка вокруг фото */
+}
+
+.serch-a{
+    color:#007bff
+}
+
+.serch-a:hover{
+    color:#007bff
+}

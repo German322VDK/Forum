@@ -1,0 +1,463 @@
+
+/* Общие стили */
+body {
+    padding-top: 70px; /* Для корректного отображения header */
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Светло-голубой фон */
+  }
+  
+  
+  /* Основная структура страниц */
+  main {
+    padding: 2rem;
+    margin-top: 1rem;
+  }
+  
+  footer {
+    background-color: #007bff; /* Голубой цвет для подвала */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Стили для форм регистрации и авторизации */
+  form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+    form input {
+        margin-bottom: 1rem;
+    }
+  
+  button {
+    width: 100px;
+  }
+  
+  .reg-form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стили для главной страницы (Популярные треды) */
+  .thread {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+    .thread h3 {
+        margin-top: 0;
+    }
+  
+    .thread p {
+        margin-bottom: 0;
+    }
+  
+  /* Страница треда */
+  article {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #007bff;
+  }
+  
+    textarea:focus {
+        outline: none;
+        border-color: #0056b3;
+    }
+  
+  /* Страница профиля */
+  #edit-profile {
+    margin-top: 2rem;
+  }
+  
+    #edit-profile input {
+        margin-bottom: 1rem;
+    }
+  
+  /* Дополнительные стили для кнопок */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+  
+  .btn-outline-primary-m {
+    color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+    .btn-outline-primary-mh {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+  
+    .btn-outline-primary-m:hover {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+    .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+    }
+  
+  /* Mobile friendly */
+  @media (max-width: 768px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+  
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+  }
+  
+  /* Стиль для изображения треда */
+  .thread-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Общие стили для элементов треда */
+  .thread-item {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .thread-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  
+  /* Статистика треда */
+  .thread-stats span {
+    font-size: 14px;
+    color: #6c757d;
+    position: relative;
+  }
+  
+  /* Стиль для уменьшенных кнопок */
+  .small-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    width: 60px; /* Установить фиксированную ширину */
+  }
+  
+  .input-group {
+    position: relative; /* Для абсолютного позиционирования кнопки */
+    display: flex; /* Flexbox для равномерного распределения элементов */
+  }
+  
+    .input-group .input-group-text {
+        background-color: transparent; /* Прозрачный фон для иконки */
+        border: none; /* Убираем границу */
+        padding: 0.5rem; /* Отступы для красивого отображения */
+    }
+  
+  .header-search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .clearButton {
+    position: absolute; /* Позиционируем кнопку абсолютно */
+    right: 10px; /* Отступ от правого края */
+    top: 50%; /* Центрирование по вертикали */
+    transform: translateY(-50%); /* Вертикальное выравнивание */
+    z-index: 10; /* Чтобы кнопка была поверх других элементов */
+    height: 38px;
+    margin-top: 0;
+  }
+  
+  .search-results {
+    position: absolute; /* Для абсолютного позиционирования */
+    background-color: white; /* Цвет фона для выделения */
+    border: 1px solid #ccc; /* Граница */
+    z-index: 1000; /* Поверх других элементов */
+    max-height: 200px; /* Максимальная высота */
+    overflow-y: auto; /* Прокрутка для длинных списков */
+    margin-top: 5px; /* Отступ сверху для отделения от поля ввода */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для выделения */
+    color:#004085;
+  }
+  
+  .search-icon {
+    color: white;
+  }
+  
+  #scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0d6efd; /* Цвет кнопки */
+    color: white;
+    border-radius: 50%;
+    display: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Плавное появление */
+    font-size: 12px; /* Уменьшили размер текста и иконки */
+    width: 50px;
+    height: 50px;
+  }
+  
+    #scroll-to-top.visible {
+        display: inline-block;
+        opacity: 1;
+        visibility: visible;
+    }
+  
+    #scroll-to-top:hover {
+        background-color: #0056b3; /* Изменение цвета при наведении */
+    }
+  
+  .custom-select {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    padding: 0;
+    background: none;
+    border: none;
+  }
+  
+    .custom-select button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+        color: white;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        width: 100%;
+    }
+  
+    .custom-select ul {
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #ced4da;
+        max-height: 200px;
+        overflow-y: auto;
+        z-index: 100;
+    }
+  
+        .custom-select ul li {
+            padding: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+  
+            .custom-select ul li:hover {
+                background-color: #f8f9fa;
+            }
+  
+            .custom-select ul li i {
+                margin-right: 2px;
+            }
+  
+  .custom-options {
+    padding-left: 0;
+  }
+  
+  .custom-select-button {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    height: 38px
+  }
+  
+  .fml-3 {
+    margin-left: 0 !important;
+  }
+  
+  .btn-xs {
+    position: relative;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .thread-container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .trad-h1{
+    text-align:center;
+  }
+  
+  .trad-textarea {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-trad-button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:auto;
+    margin-bottom:20px;
+  }
+  
+  .add-trad-button:hover {
+    background-color: #218838;
+  }
+  
+  .post{
+    background-color:aliceblue;
+  }
+  .comment {
+    background-color: rgb(215, 240, 250);
+  }
+  
+  .post,
+  .comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .comment-list {
+    margin-top: 10px;
+  }
+  
+  .toggle-comments-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+  }
+  
+    .toggle-comments-btn:hover {
+        background-color: #0056b3;
+    }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+    .delete-btn:hover {
+        background-color: #c82333;
+    }
+  
+  .wrapper {
+    display: flex; /* Flexbox для центрирования */
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+  }
+  
+  .image-container {
+    display: flex; /* Flexbox для центрирования */
+    justify-content: center; /* Горизонтальное центрирование */
+    text-align:center;
+    align-items: center; /* Вертикальное центрирование */
+    width: 100%; /* Занимать всю доступную ширину */
+    height: 100%; /* Занимать всю доступную высоту */
+  }
+  
+  .image-container-trad {
+    width: 300px; /* Максимальная ширина контейнера */
+    height: 300px; /* Максимальная высота контейнера */
+  }
+  
+  .image-container-post {
+    width: 250px; /* Максимальная ширина контейнера */
+    height: 250px; /* Максимальная высота контейнера */
+  }
+  
+  .image-container-comment {
+    width: 200px; /* Максимальная ширина контейнера */
+    height: 200px; /* Максимальная высота контейнера */
+  }
+  
+    .image-container img {
+        max-width: 100%; /* Ограничение по ширине для изображения */
+        max-height: 100%; /* Ограничение по высоте для изображения */
+        object-fit: contain; /* Масштабирование изображения, сохраняя пропорции */
+    }
+  
+  .addContent{
+    border: 1px solid rgb(221, 221, 221);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mini-user-image{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .account-header-a{
+    color:white;
+  }

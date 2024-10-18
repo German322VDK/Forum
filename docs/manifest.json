@@ -1,0 +1,1014 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/data/CS/Public/Forum/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Database.Context.ForumDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Database.Context.ForumDbContext.html",
+          "hash": "yPMIT7bx3FFx9ThzMMpa5KcRnj2TLs7VHc0sI38o8EY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Database.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Database.Context.html",
+          "hash": "vvEAnPLYdbIGgDiGLndCBdfi/QSBGObJExeisICR0R8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Database.Migrations.Init.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Database.Migrations.Init.html",
+          "hash": "muyQFV31g9QkU3/a3NkdL0+qEgT3JbpN5REb6Xo/47g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Database.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Database.Migrations.html",
+          "hash": "tdeRP6HAyhLqoSIyg4084Q3yV14mEm4YVlbgYqOpaiw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.CommentEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.CommentEntity.html",
+          "hash": "NZNT06y7pwZIORBQ4RVXsIb8UBkdb9gP72ppGYk1YPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.ContentEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.ContentEntity.html",
+          "hash": "WLQG5cUn9b+pat8e0jSYUPbdZS70sm0DrdYKii+EfgQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.Entity.html",
+          "hash": "AyytZLFqyts8qiI/s+zv3qFsiWy97K/wfxY4oY4dg4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.CommentLikeEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.CommentLikeEntity.html",
+          "hash": "73BbSkffRwVD6cafYZcKp61U4eS2rAcGeC21EWZ9qWg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.LikeEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.LikeEntity.html",
+          "hash": "ADjVhhBsm6zkVT6WEWycaRmDV3d94+5M0VdwriQKb5E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.PostLikeEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.PostLikeEntity.html",
+          "hash": "ForcNz6lj8vGoUbpHUb2SiLErDxInH7TxETa5ibwccY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.TradLikeEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.TradLikeEntity.html",
+          "hash": "cQqQQWKAzwBr7E407QMrEPsLf/tJnpQ9m1pcQ3zd+yI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.Likes.html",
+          "hash": "GpgBGjD3tACcvQkUe/bDVosops0E+SvLWd6XitcPfm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.PostEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.PostEntity.html",
+          "hash": "CCE9ZB7IXO+N5vCs/Rg4jXMTnI2Rt4ugLr8fffGeRs0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.TradEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.TradEntity.html",
+          "hash": "Jvhn7TXspAUPpPuOyfMCHYf942U/tH4gBtm6DPHqNBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.ForumEntities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.ForumEntities.html",
+          "hash": "C7yQwKB+zSCi9kp0kR1ck9a8b8Z8Acg3ovRTbydKDf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.Identity.RoleEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.Identity.RoleEntity.html",
+          "hash": "Qtv9DK3I+Q3w3LyY6zho9p6N3HxSd+sauJ/tz99gjs4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.Identity.UserEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.Identity.UserEntity.html",
+          "hash": "BlyhQoobq/RdhVT5AQMoNLjrruIsIoFN81jyEzUNQho="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.Identity.UserStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.Identity.UserStatus.html",
+          "hash": "HjxxArx8eiCQnht7MZhAjQ35vTotn/DKMzsyxgaAtBs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.Entities.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.Entities.Identity.html",
+          "hash": "pHroEbe9kumOHx78m0JtVZs3UdAHbLwFG2h9Ezeg+t4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.Base.CommentViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.Base.CommentViewModel.html",
+          "hash": "6zP7DJl1n2hzqajCXy/KftmA/F27+cNTJX+gI4EeshY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.Base.ContentViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.Base.ContentViewModel.html",
+          "hash": "4CAtlYvtFsxT9X+LuPQ4zXGxdnkOq0nttE6vlemAEpM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.Base.ImageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.Base.ImageViewModel.html",
+          "hash": "tCWKmgAMLMLkW8YBeTFIQJvY8lU/wY7NIUZsX7dcNls="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.Base.PostViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.Base.PostViewModel.html",
+          "hash": "vIw1eAFyagZFu07AtbqwiMbTzVo4bWoTiMVwDOSYHc8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.Base.TradShortViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.Base.TradShortViewModel.html",
+          "hash": "M7Ifl4ElTdLaToIahEyq+W66FCjHNXVjHgtE76boZD8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.Base.TradViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.Base.TradViewModel.html",
+          "hash": "8pwKidhsC0qJAbPgtyhRUMzGDP+m0GQmlbQGT1fS2vs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.Base.html",
+          "hash": "kGlRPh0+lKNFhMgPM5l4e3EYhAHZLCJm98ifNYUan90="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.CommentFromView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.CommentFromView.html",
+          "hash": "6KN0Oi2mQaEIP0DlJRGsC5D/oq0pC5XcjDVk1jv+CN0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.ContentFromView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.ContentFromView.html",
+          "hash": "586y/If6TLtG58J8StPvQDPsofV6mpR4D1VUKLoGOoE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.PostFromView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.PostFromView.html",
+          "hash": "wtas8Xooup4Js3uTkPn6k4itnIujJS1uJ8oH6zuMjm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.TradFromView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.TradFromView.html",
+          "hash": "BjBT90k0nm9k6H897NKAyKI7KLab3zUmtfUAsY/Zii8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Contents.FromView.html",
+          "hash": "F2AJ/HP3zT/zgqSAYPylbd/a5ZnSnJmMqOfAjgDuqrk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Identities.LoginViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Identities.LoginViewModel.html",
+          "hash": "xkxcxAy4BfU3FAXcO7hAnoKJbW7AaEJJ66VqKykrWcU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Identities.RegisterViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Identities.RegisterViewModel.html",
+          "hash": "KgOc0UOAFjdg2l9uBXjlA3px85lPVi0AcLtQUFUQb1s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Identities.UserContentViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Identities.UserContentViewModel.html",
+          "hash": "QDcdsenXYObk3nNBLibmvlVuSWfHYQJyMOeNt7577nI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Identities.UserInfoViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Identities.UserInfoViewModel.html",
+          "hash": "N7LE1qW+fPjv0rdcG3WFe7UZWp2WD7QgxLBSpLwcmtc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Identities.UserLongModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Identities.UserLongModel.html",
+          "hash": "2pKpk1Qp6r7x+cpZsdz5VoTNQxXuf+4AM83eNajVHaw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Identities.UserRefViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Identities.UserRefViewModel.html",
+          "hash": "ZnalVeYDgucljAbd0+xq+QmqTZD1J+nVErOtosKsZFk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Domain.ViewModels.Identities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Domain.ViewModels.Identities.html",
+          "hash": "JGQVKYoQl6qWBk6yFw6TKFviosFeCrGSEup1qFNP7JA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Initializers.ForumDbInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Initializers.ForumDbInitializer.html",
+          "hash": "7bHo9A2whWjOa1cLLIqhBFJwoTa/cbwbBwhTSfMmFuI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Initializers.IDbInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Initializers.IDbInitializer.html",
+          "hash": "f2UJYqnPxWEs9TI6S3f/XJnJ+NBSrhQgBucgaBjkbLU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Initializers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Initializers.html",
+          "hash": "WRLpSjULDFCMH/S45rnudM47JrUfU9Wqp3tjFP2d/BE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Mapping.ContentMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Mapping.ContentMapper.html",
+          "hash": "zVZeypVSruuRHazcx01jBQzNSJYlKs7WVmQuE+CuDGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Mapping.UserMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Mapping.UserMapper.html",
+          "hash": "jzrrY+6/uE807ushfhjuZQVDuqN9du6WwjM1+kUfxRc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Mapping.html",
+          "hash": "djis8qLzwGpCmh+t/pQYoeeOUNnOTuTtXhvdsjFiqx8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Services.Identity.UserManagerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Services.Identity.UserManagerExtensions.html",
+          "hash": "nOytxqAeZUMgjivnQfQg5u56kzRFG6R50vJWOGlLljk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Services.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Services.Identity.html",
+          "hash": "Mjf6R1yb33qaSdMRbITN+HbBrp4qeSgyja1+O6msDoI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.CommentStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.CommentStore.html",
+          "hash": "Xi+nj6u1yMLsDkAtdQJrxHXYBWsDLtGZY8PGOTUbNxI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.html",
+          "hash": "tauQTSVVyI6rWDlwcZZHigzH98XPmVP+blpy4k4jTFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.IStore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.IStore-1.html",
+          "hash": "W0Bp8XtYDsfqJw870Qz+EqaCKn0db/m3+19U3qFAGwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.PostStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.PostStore.html",
+          "hash": "6fSDWNyk/qqeCPQ+zWdqymyyZVJRquwIrLGZPAji5D0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.TradStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.TradStore.html",
+          "hash": "n+0NMTVfddsin/dE/ZVpUVAZeBQh5wnULpNVK+2l8ac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.Services.Stores.Contents.html",
+          "hash": "Kmopdt+MU4yK3TtyOgd3M0b3CQNa9j3l/f6+nceJ4Kg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.StaticData.InitData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.StaticData.InitData.html",
+          "hash": "0BWvKFe2l8BwYKt45JP9/6nVM3FBRrQQCk8MkmOLfiU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Infrastructure.StaticData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Infrastructure.StaticData.html",
+          "hash": "Jih1pCrlY2hS0rhJ3qaFJ/wySDC9YqWw8f/TNRd1vyk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.Controllers.CommentController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.Controllers.CommentController.html",
+          "hash": "evGLkAYtwJMvqvOvA98Oi31Hs2sHovJehYScsxIu5VI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.Controllers.PostController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.Controllers.PostController.html",
+          "hash": "Cx12AZ246fbAe4y/ooVX7G2Arn2Ke5Kp7P7TBxDrnmM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.Controllers.TradController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.Controllers.TradController.html",
+          "hash": "kQeWMGD2Wt6M+YSn4B7LezqD7nu4wbWtJnXhNGbVdgw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.Controllers.UsersController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.Controllers.UsersController.html",
+          "hash": "6wGh6LB+Ja2F4DtJJR7JGYpXC8lepC6svGo2L665c3U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.Controllers.html",
+          "hash": "pYEljp871CoTIPqCKEhtPItD2bm9TfCR+RCA5YW8o6c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.Program.html",
+          "hash": "mmxy/zl+ISKksho8fnOqK9N3UnH5esoyYscTrJc/IOs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.Startup.html",
+          "hash": "coM3GnVspdblztCjMBOG8TPAik/9W7uhg52T9wXSfBo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.FileManagement.Images.IImageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.FileManagement.Images.IImageManager.html",
+          "hash": "ZAGbfCnJ8ruTfIq9djafbf9DECE8HBXGKAGyiM+vVVY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.FileManagement.Images.ImageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.FileManagement.Images.ImageManager.html",
+          "hash": "ZOjtFg4TU4AD9JYgUKMbi/o1hQdme51pqC7rq1cIYoM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.FileManagement.Images.ImageUploadResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.FileManagement.Images.ImageUploadResult.html",
+          "hash": "eNfhByJcNK8vaeJJHQWHCRT6aU6hPQCE4K9yfZPP9Hg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.FileManagement.Images.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.FileManagement.Images.html",
+          "hash": "oZf5qkzmTGxtf6/Wgvke+1RS33GejSEg/t+tMheFkn0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.Middlewares.BanMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.Middlewares.BanMiddleware.html",
+          "hash": "baKb1MUdtAUUC+3D7q99IJLve94vpffRnRgvOsgdN7A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.Middlewares.ErrorHandlingMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.Middlewares.ErrorHandlingMiddleware.html",
+          "hash": "mjBCFU8MGMTmD9HAX3iqovbPn9qbXnuykttrdLN0GRQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.Middlewares.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.Middlewares.html",
+          "hash": "z3bdqQQ85psZzXiEqJftzdo/Em0e4olggE7eHNZcnzQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.Security.CustomTokenOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.Security.CustomTokenOptions.html",
+          "hash": "kdNCq4h+RJpFTz745fh/W2tQZgmyZvJ2ilKmfM6QenI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.Security.ITokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.Security.ITokenService.html",
+          "hash": "vesjfmobV+1CYlGvIEb7GsCA4J9gHfmC2pRRxk5/XgM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.Security.JwtSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.Security.JwtSettings.html",
+          "hash": "dGWNF84HWgczbpJCPjOKFcdUxKsBcgySIEP8cQ1l1rg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.Security.TokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.Security.TokenService.html",
+          "hash": "XxAx2Hc6Qtztmwj1COv6xPkufCmQ7AiZJ8o9H+550E4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.WebInfrastructure.Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.WebInfrastructure.Security.html",
+          "hash": "jo0/RIqs+00qzZEhe1SYMTeNqaMCQt6yBG750L2g1Ic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Forum.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Forum.Server.html",
+          "hash": "RYtp87SJjEqRyGnTBf6AcLo5hztUGugcPdk67yYrU/o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "01MNhm8OUYGRu0wB93NT6BI3GFkq9j1ilSmFp2cvdXM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "duNkYE06qOAaAPO+eI5rVt8dWvs2TRvQqDqnjOZm02M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "yYG/nbO9TqNP1KWdZFjPFo3bLHhlVjAlmHrcW2iMVkc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "VWYUxK27Y1TDkth4COPpO2ntWHBOIoWfVFOFQr0LjcQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 74,
+          "skipped_file_count": 42
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
